@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+	    <title>Offely.com | Aqui quem ganha é sempre você.</title>
+
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <link href="img/favicon.ico?" type="image/x-icon" rel="icon" />
+	    <link href="igm/favicon.ico?" type="image/x-icon" rel="shortcut icon" />
+	   
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+        <script src="js/jquery.min.js"></script>
+      	<script src="js/jquery.fblogin.min.js"></script>      	
+        <script src="js/functions.js" ></script>
+        <script src="js/live.js"></script>
+
+		<meta name="description" content="Melhores promoções da internet de lojas 100% segura, ainda divulgando você ganha um parte."/>
+
+		<meta property="og:locale" content="pt_BR"/>
+		<meta property="og:title" content="Offely.com" />
+		<meta property="og:image" content="img/logo.png"/>
+		<meta property="og:url" content="https://gatry.com/" />
+		<meta property="og:site_name" content="Offely.com" />
+		<meta property="og:description" content="Melhores promoções da internet de lojas 100% segura, ainda divulgando você ganha um parte." />
+		<meta property="og:type" content="website" />
+	</head>
+	<script>
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script> 
+    <style type="text/css">
+	.promos {
+	    margin-top: 0px;
+	}
+	.promo_image {
+	background-position: center top;
+    background-size: 20%;
+	}
+	.promo_content {
+		text-align: center;
+    	margin-top: -43%;
+	}
+	.promo_title {
+    	font-size: 2.25rem;
+	}
+	.promo_price {
+    font-size: 3rem;
+	}
+	.promo_price span {
+    font-size: 4rem;
+	}
+	.promos_item {
+	    width: 100%;
+	}
+	.promo_clicks {
+    	background-position: top right 3%;
+	}
+    </style>    
+	<body ng-app="promoApp">
+		<div class="caixa" id="mais" style="display:none;">
+			<a id="btnmais" style="color:#000;">Novas Promoções (<span></span>) !</a>
+		</div>
+		<article class="promos" id="home"></article>
+		<footer>
+		<h2><a href="http://loja.ga/">Loja.GA</a> - offely.com © 2016</h2>
+		</footer>
+</body>
+</html>
