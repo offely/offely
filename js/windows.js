@@ -1,11 +1,11 @@
 $(function(){
 
     //var http = 'localhost/offely/api';
-    var http = 'api.offely.ga';
+    var http = 'offely-cf.umbler.net';
 
     var start = 9;
 
-    var url =  'http://' + http + '/json.php?';
+    var url =  'https://' + http + '/json.php?';
     
     var load = function (category = "off") {
         if(category=='off') {
