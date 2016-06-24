@@ -1,7 +1,7 @@
 $(function(){
 
-    var http = 'localhost/offely/api';
-    //var http = 'api.offely.ga';
+    //var http = 'localhost/offely/api';
+    var http = 'api.offely.ga';
 
     var start = 1;
 
