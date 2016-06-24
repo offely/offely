@@ -19,7 +19,8 @@ $(function(){
         }
         //console.log(url + 'category=' + urls + '&qtde=' + start);
         $.ajax({
-            datatype: 'application/json',
+            type: "GET",
+            contentType: 'application/json',
             url: url + 'category=' + urls + '&qtde=' + start,
                 success: function (data) {
                 var len = data.length;
